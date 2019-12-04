@@ -1,6 +1,6 @@
 package br.ufc.deveopen.snackandstairs.strategy;
 
-import br.ufc.devopen.snackandstairs.objetos.Coordenada;
+import br.ufc.deveopen.snackandstairs.objetos.Coordenada;
 
 public class StrategyCasasAbstract implements StrategyCasas{
 	protected int numeroCasaAtual;

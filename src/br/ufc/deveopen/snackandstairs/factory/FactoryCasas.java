@@ -1,7 +1,7 @@
 package br.ufc.deveopen.snackandstairs.factory;
 
 import br.ufc.deveopen.snackandstairs.strategy.StrategyCasas;
-import br.ufc.devopen.snackandstairs.objetos.Coordenada;
+import br.ufc.deveopen.snackandstairs.objetos.Coordenada;
 
 public class FactoryCasas {
 	

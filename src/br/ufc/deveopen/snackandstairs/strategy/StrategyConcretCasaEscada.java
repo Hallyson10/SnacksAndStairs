@@ -1,6 +1,6 @@
 package br.ufc.deveopen.snackandstairs.strategy;
 
-import br.ufc.devopen.snackandstairs.objetos.Coordenada;
+import br.ufc.deveopen.snackandstairs.objetos.Coordenada;
 
 public class StrategyConcretCasaEscada  extends StrategyCasasAbstract {
 	private int numeroCasaAtual;
@@ -18,7 +18,7 @@ public class StrategyConcretCasaEscada  extends StrategyCasasAbstract {
 
 	@Override
 	public void setCoordenadaAndar(int numero) {
-		System.out.println("Parabéns você subiu na escada, avançou "+numero+" casas");
+		System.out.println("Opa uma escada");
 		this.numeroCasaAtual = numero;
 	}
 
@@ -26,6 +26,12 @@ public class StrategyConcretCasaEscada  extends StrategyCasasAbstract {
 	public Coordenada getCoordenadaAtual() {
 		if(this.numeroCasaAtual == 6) {
 			this.numeroCasaAtual = 10;
+			System.out.println("Avançou "+this.numeroCasaAtual+" casas" );
+			this.coordenada.setX(250);
+			this.coordenada.setY(240);
+		}
+		if(this.numeroCasaAtual == 1) {
+			this.numeroCasaAtual = 5;
 			this.coordenada.setX(250);
 			this.coordenada.setY(240);
 		}

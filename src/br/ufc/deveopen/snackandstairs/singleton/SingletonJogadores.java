@@ -2,7 +2,7 @@ package br.ufc.deveopen.snackandstairs.singleton;
 
 import java.util.ArrayList;
 
-import br.ufc.devopen.snackandstairs.objetos.Jogador;
+import br.ufc.deveopen.snackandstairs.objetos.Jogador;
 
 public class SingletonJogadores {
 	private static SingletonJogadores uniqueInstance = null;
